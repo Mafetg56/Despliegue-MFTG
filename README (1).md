@@ -1,2 +1,2 @@
-# PrediccNotas
-Predicción de notas
+# Prediccion de contaminacion del aire en PM10
+Este proyecto utiliza modelos de aprendizaje automático para predecir la concentración de material particulado PM10 a partir de variables meteorológicas como temperatura, presión atmosférica, radiación solar, velocidad y dirección del viento. Incluye el entrenamiento de modelos, ajuste de hiperparámetros y despliegue de una aplicación interactiva en Streamlit para cargar nuevos datos y obtener predicciones.
