@@ -48,7 +48,7 @@ if uploaded_file is not None:
 
         # Load the model
         try:
-            model = joblib.load('/content/best_random_forest_regressor_model_gridsearch.pkl')
+            model = joblib.load('best_random_forest_regressor_model_gridsearch.pkl')
         except FileNotFoundError:
             st.error("Error: Archivo 'best_random_forest_regressor_model_gridsearch.pkl' no encontrado. Asegúrate de que el archivo esté en '/content/'.")
             st.stop()
