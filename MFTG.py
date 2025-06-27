@@ -26,7 +26,7 @@ if uploaded_file is not None:
 
         # Load the scaler
         try:
-            scaler = joblib.load('/content/standard_scaler.pkl')
+            scaler = joblib.load('standard_scaler.pkl')
         except FileNotFoundError:
             st.error("Error: Archivo 'standard_scaler.pkl' no encontrado. Asegúrate de que el archivo esté en '/content/'.")
             st.stop()
