@@ -5,6 +5,7 @@ from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 import numpy as np
 
 st.title('Predicción de Mediciones Futuras')
+st.subheader('Este proyecto utiliza modelos de aprendizaje automático para predecir la concentración de material particulado PM10 a partir de variables meteorológicas como temperatura, presión atmosférica, radiación solar, velocidad y dirección del viento. Incluye el entrenamiento de modelos, ajuste de hiperparámetros y despliegue de una aplicación interactiva en Streamlit para cargar nuevos datos y obtener predicciones.')
 
 # File upload for the data
 uploaded_file = st.file_uploader("Sube tu archivo Excel de mediciones futuras", type=["xlsx"])
