@@ -57,7 +57,8 @@ if uploaded_file is not None:
         # Perform predictions
         predictions = model.predict(df)
 
-       
+        # Add predictions to the dataframe
+        df['Predicted_Value'] = predictions
 
 
      
